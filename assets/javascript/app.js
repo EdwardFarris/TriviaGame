@@ -7,7 +7,7 @@ var questions = [{
     divClass: ".direwolf"
 },
 {
-    ques: "What is animal is represented on the Lannister House Sigil?",
+    ques: "What is animal is represented on the Lannister House Sygil?",
     ans: ["A Stag", "An Owl", "A Fish", "A Lion"],
     name: "sigil",
     correct: "A Lion",
