@@ -1,0 +1,107 @@
+body {
+    background-image: url("../images/johnSnow.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+p {
+    font-family: 'Cinzel Decorative', cursive;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 70px;
+    color: black;
+    font-family: 'Cinzel Decorative', cursive;
+    text-shadow: 2px 2px lightseagreen;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 50px;
+    color: black;
+    font-family: 'Nosifer', cursive;
+    text-shadow: 2px 2px red;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 40px;
+    color: blue;
+    text-shadow: 1px 1px lightseagreen;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
+}
+
+#introScreen,
+#progressScreen,
+#timeUp,
+.questionBox {
+    background-color: rgb(255, 255, 255, .2);
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid lightseagreen;
+    border-radius: 5px;
+    margin: 0 auto;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 90%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Cinzel Decorative', cursive;
+    margin-left: 0px;
+    margin-right: 0px;
+    text-shadow: 1px 1px lightseagreen;
+}
+
+#progressScreen,
+#timeUp,
+.questionBox {
+    display: none;
+}
+
+.questionBox {
+    margin-bottom: 75px;
+}
+
+.timeRemaining {
+    position: relative;
+    left: 330px;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-family: 'Cinzel Decorative', cursive;
+    /* padding-left: 280px; */
+    text-shadow: 2px 2px red;
+    padding: 5px;
+}
+
+
+
+.questions {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.row {
+    text-align: center;
+}
+
+.up {
+    color: red;
+    text-shadow: 1px 1px lightseagreen;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+/* font-family: 'Cinzel Decorative', cursive;
+font-family: 'Marcellus SC', serif;
+font-family: 'Nosifer', cursive; */
