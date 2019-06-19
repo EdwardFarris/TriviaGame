@@ -7,14 +7,14 @@ var questions = [{
     divClass: ".direwolf"
 },
 {
-    ques: "What is animal is represented on the Lannister House Sygil?",
+    ques: "Which animal is represented on the Lannister's House Sygil?",
     ans: ["A Stag", "An Owl", "A Fish", "A Lion"],
     name: "sigil",
     correct: "A Lion",
     divClass: ".sigil"
 },
 {
-    ques: "How many children do Ned and Catelyn Stark actually have by blood?",
+    ques: "How many children do Ned and Catelyn Stark have by blood?",
     ans: ["Five", "Four", "Three", "Two"],
     name: "children",
     correct: "Five",
@@ -42,7 +42,7 @@ var questions = [{
     divClass: ".son"
 },
 {
-    ques: "Jon Snow originally ventures north of the wall to try and find?",
+    ques: "Jon Snow originally ventures north of the wall to find who?",
     ans: ["His parents", "His uncle", "His direwolf", "His horse"],
     name: "snow",
     correct: "His uncle",
@@ -79,7 +79,7 @@ var labels = ["first", "second", "third", "fourth"];
 var startGame = $("#startButton").on('click', function() {
     $('#introScreen').hide();
     $('.questionBox').show();
-    countdown(100);
+    countdown(200);
     questionDisplay();
 });
 

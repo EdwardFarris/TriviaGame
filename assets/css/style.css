@@ -1,11 +1,15 @@
-body {
-    background-image: url("../images/johnSnow.jpg");
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+html, body {
+    min-height: 100%;
 }
 
+
+body {
+    background-image: url("../images/johnSnow.jpg");
+    height: auto; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 p {
     font-family: 'Cinzel Decorative', cursive;
