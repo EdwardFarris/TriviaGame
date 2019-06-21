@@ -22,7 +22,7 @@ h1 {
     font-size: 70px;
     color: black;
     font-family: 'Cinzel Decorative', cursive;
-    text-shadow: 2px 2px blue;
+    text-shadow: -2px 2px blue;
     font-weight: bold;
 }
 
@@ -30,14 +30,14 @@ h3 {
     font-size: 50px;
     color: black;
     font-family: 'Nosifer', cursive;
-    text-shadow: 2px 2px red;
+    text-shadow: -2px 2px red;
     font-weight: bold;
 }
 
 h4 {
     font-size: 40px;
     color: blue;
-    text-shadow: 1px 1px blue;
+    text-shadow: -2px 2px blue;
     font-family: 'Cinzel Decorative', cursive;
     font-weight: bold;
 }
@@ -55,14 +55,14 @@ h4 {
     margin: 0 auto;
     position: relative;
     top: 50px;
-    left: 50px;
+    left: 70px;
     width: 90%;
     padding-bottom: 10px;
     padding-top: 10px;
     font-family: 'Cinzel Decorative', cursive;
     margin-left: 0px;
     margin-right: 0px;
-    text-shadow: 1px 1px blue;
+    text-shadow: -2px 2px blue;
 }
 
 #progressScreen,
@@ -83,7 +83,7 @@ h4 {
     font-size: 50px;
     font-family: 'Cinzel Decorative', cursive;
     /* padding-left: 280px; */
-    text-shadow: 2px 2px red;
+    text-shadow: -2px 2px red;
     padding: 5px;
 }
 
@@ -100,7 +100,7 @@ h4 {
 
 .up {
     color: red;
-    text-shadow: 1px 1px blue;
+    text-shadow: -2px 2px blue;
     font-size: 50px;
     font-weight: bold;
 }
